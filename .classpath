@@ -6,9 +6,7 @@
 	<classpathentry kind="lib" path="lib/jinput.jar"/>
 	<classpathentry kind="lib" path="lib/lwjgl.jar"/>
 	<classpathentry kind="lib" path="lib/slick.jar"/>
-	<classpathentry kind="lib" path="D:/Formations/L3 MIAGE/S6/POOR/eclipse-workspace/TestN/lib/jorbis-0.0.15.jar"/>
-	<classpathentry kind="lib" path="D:/Formations/L3 MIAGE/S6/POOR/eclipse-workspace/TestN/lib/jogg-0.0.7.jar"/>
-	<classpathentry kind="lib" path="D:/Formations/L3 MIAGE/S6/POOR/eclipse-workspace/JavaGame/lib/jogg-0.0.7.jar"/>
-	<classpathentry kind="lib" path="D:/Formations/L3 MIAGE/S6/POOR/eclipse-workspace/JavaGame/lib/jorbis-0.0.15.jar"/>
+	<classpathentry kind="lib" path="lib/jogg-0.0.7.jar"/>
+	<classpathentry kind="lib" path="lib/jorbis-0.0.15.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
