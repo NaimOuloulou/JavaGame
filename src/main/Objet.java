@@ -7,9 +7,13 @@ public abstract class Objet {
 	
 	public Objet(){
 	}
-	
+
 	public void estRamasse(){
 		estRamasse = true;
+	}
+	
+	public String getTypeObjet() {
+		return typeObjet;
 	}
 
 }
