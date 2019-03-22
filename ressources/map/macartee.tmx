@@ -26,10 +26,11 @@
   </data>
  </layer>
  <objectgroup id="6" name="trigger" offsetx="1" offsety="1" width="100" height="100">
-  <object id="2" type="teleport" x="287" y="48" width="31" height="55">
+  <object id="2" type="change-map" x="287" y="48" width="31" height="55">
    <properties>
-    <property name="dest-x" type="int" value="300"/>
-    <property name="dest-y" type="int" value="500"/>
+    <property name="dest-map" value="map/macartee3.tmx"/>
+    <property name="dest-x" type="int" value="303"/>
+    <property name="dest-y" type="int" value="516"/>
    </properties>
   </object>
  </objectgroup>
