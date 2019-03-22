@@ -29,15 +29,15 @@ public class Personnage {
 	}
 	
 	public void init() throws SlickException {
-		SpriteSheet spriteSheet = new SpriteSheet("sprites/OgreWALK01.png", 70, 70);
-		this.animations[0] = loadAnimation(spriteSheet, 0, 1, 0);
-	    this.animations[1] = loadAnimation(spriteSheet, 0, 1, 1);
-	    this.animations[2] = loadAnimation(spriteSheet, 0, 1, 4);
-	    this.animations[3] = loadAnimation(spriteSheet, 0, 1, 7);
-	    this.animations[4] = loadAnimation(spriteSheet, 1, 9, 0);
-	    this.animations[5] = loadAnimation(spriteSheet, 1, 9, 1);
-	    this.animations[6] = loadAnimation(spriteSheet, 1, 9, 4);
-	    this.animations[7] = loadAnimation(spriteSheet, 1, 9, 7);
+		SpriteSheet spriteSheet = new SpriteSheet("sprites/sprite01.png", 64, 64);
+		this.animations[0] = loadAnimation(spriteSheet, 0, 1, 8);
+	    this.animations[1] = loadAnimation(spriteSheet, 0, 1, 9);
+	    this.animations[2] = loadAnimation(spriteSheet, 0, 1, 10);
+	    this.animations[3] = loadAnimation(spriteSheet, 0, 1, 11);
+	    this.animations[4] = loadAnimation(spriteSheet, 1, 8, 8);
+	    this.animations[5] = loadAnimation(spriteSheet, 1, 8, 9);
+	    this.animations[6] = loadAnimation(spriteSheet, 1, 8, 10);
+	    this.animations[7] = loadAnimation(spriteSheet, 1, 8, 11);
 	}
 	
 	private Animation loadAnimation(SpriteSheet spriteSheet, int startX, int endX, int y) {
